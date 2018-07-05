@@ -1,4 +1,5 @@
 //2. Write a method that returns an N-digit integer random number..
+//2. Write a method that returns an N-digit integer random number..
                 import java.util.Random;
 public class RandonNumber {
               public static void main(String[] args) {
