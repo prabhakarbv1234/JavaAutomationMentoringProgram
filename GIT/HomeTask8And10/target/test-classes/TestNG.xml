@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CalculatorSuite" parallel="methods" thread-count="4">
+<listeners>
+<listener class-name="hometask.ten.ListenerTest"/>
+</listeners>
+<test name="CalculatorTest">
+<groups>
+<run>
+<include name="All"/>
+<exclude name="NegativeTesCase"/>
+</run>
+</groups>
+<classes>
+<class name="hometask.ten.TestHomeTaskCalculator"/>
+</classes>
+</test>
+</suite>

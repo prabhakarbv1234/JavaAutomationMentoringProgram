@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" parallel="tests">
+  <test name="Test CaseName :LTI_ENV" preserve-order="True">
+    <classes>
+      <class name="hometask.ten.TestHomeTaskCalculator"/>
+    </classes>
+  </test> <!-- Test CaseName :LTI_ENV -->
+  <test name="Test CaseName :LTI_ENV(failed)" parallel="tests">
+    <classes>
+      <class name="hometask.ten.TestHomeTaskCalculator">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="testMultiNumbers" invocation-numbers="0 1"/>
+          <include name="testaddTwoNumbers" invocation-numbers="0 1 2"/>
+          <include name="afterTest"/>
+          <include name="testSquareRoot" invocation-numbers="0"/>
+          <include name="testSubtractionNumbers" invocation-numbers="0 1 2"/>
+          <include name="testdivTwoNumbers" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- hometask.ten.TestHomeTaskCalculator -->
+    </classes>
+  </test> <!-- Test CaseName :LTI_ENV(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CalculatorSuite" duration-ms="16" started-at="2018-08-24T08:32:38Z" finished-at="2018-08-24T08:32:38Z">
+    <groups>
+      <group name="All">
+        <method signature="TestHomeTaskCalculator.findAllBugsTest()[pri:8, instance:hometask.ten.TestHomeTaskCalculator@1ddf84b8]" name="findAllBugsTest" class="hometask.ten.TestHomeTaskCalculator"/>
+        <method signature="TestHomeTaskCalculator.testSquareRoot(java.lang.Long, java.lang.Long)[pri:6, instance:hometask.ten.TestHomeTaskCalculator@1ddf84b8]" name="testSquareRoot" class="hometask.ten.TestHomeTaskCalculator"/>
+        <method signature="TestHomeTaskCalculator.testisNegative(long, boolean)[pri:7, instance:hometask.ten.TestHomeTaskCalculator@1ddf84b8]" name="testisNegative" class="hometask.ten.TestHomeTaskCalculator"/>
+        <method signature="TestHomeTaskCalculator.testisPostive(long, boolean)[pri:5, instance:hometask.ten.TestHomeTaskCalculator@1ddf84b8]" name="testisPostive" class="hometask.ten.TestHomeTaskCalculator"/>
+      </group> <!-- All -->
+      <group name="positiveTestCase">
+        <method signature="TestHomeTaskCalculator.testSquareRoot(java.lang.Long, java.lang.Long)[pri:6, instance:hometask.ten.TestHomeTaskCalculator@1ddf84b8]" name="testSquareRoot" class="hometask.ten.TestHomeTaskCalculator"/>
+        <method signature="TestHomeTaskCalculator.testisNegative(long, boolean)[pri:7, instance:hometask.ten.TestHomeTaskCalculator@1ddf84b8]" name="testisNegative" class="hometask.ten.TestHomeTaskCalculator"/>
+        <method signature="TestHomeTaskCalculator.testisPostive(long, boolean)[pri:5, instance:hometask.ten.TestHomeTaskCalculator@1ddf84b8]" name="testisPostive" class="hometask.ten.TestHomeTaskCalculator"/>
+      </group> <!-- positiveTestCase -->
+    </groups>
+    <test name="CalculatorTest" duration-ms="16" started-at="2018-08-24T08:32:38Z" finished-at="2018-08-24T08:32:38Z">
+      <class name="hometask.ten.TestHomeTaskCalculator">
+        <test-method status="FAIL" signature="findAllBugsTest()[pri:8, instance:hometask.ten.TestHomeTaskCalculator@1ddf84b8]" name="findAllBugsTest" duration-ms="16" started-at="2018-08-24T14:02:38Z" finished-at="2018-08-24T14:02:38Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at hometask.ten.TestHomeTaskCalculator.findAllBugsTest(TestHomeTaskCalculator.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllBugsTest -->
+        <test-method status="FAIL" signature="testisPostive(long, boolean)[pri:5, instance:hometask.ten.TestHomeTaskCalculator@1ddf84b8]" name="testisPostive" duration-ms="0" started-at="2018-08-24T14:02:38Z" data-provider="positive" finished-at="2018-08-24T14:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at hometask.ten.TestHomeTaskCalculator.testisPostive(TestHomeTaskCalculator.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testisPostive -->
+        <test-method status="FAIL" signature="testisNegative(long, boolean)[pri:7, instance:hometask.ten.TestHomeTaskCalculator@1ddf84b8]" name="testisNegative" duration-ms="0" started-at="2018-08-24T14:02:38Z" data-provider="negative" finished-at="2018-08-24T14:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-120]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at hometask.ten.TestHomeTaskCalculator.testisNegative(TestHomeTaskCalculator.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testisNegative -->
+        <test-method status="FAIL" signature="testSquareRoot(java.lang.Long, java.lang.Long)[pri:6, instance:hometask.ten.TestHomeTaskCalculator@1ddf84b8]" name="testSquareRoot" duration-ms="0" started-at="2018-08-24T14:02:38Z" data-provider="squareRoot" finished-at="2018-08-24T14:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[argument type mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: argument type mismatch
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRoot -->
+      </class> <!-- hometask.ten.TestHomeTaskCalculator -->
+    </test> <!-- CalculatorTest -->
+  </suite> <!-- CalculatorSuite -->
+</testng-results>

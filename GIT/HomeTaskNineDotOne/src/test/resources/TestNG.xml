@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CalculatorSuite">
+<listeners>
+<listener class-name="cleancode.hometask.ten.ListenerTest"/>
+</listeners>
+<test name="CalculatorTest">
+<groups>
+<run>
+<include name="All"/>
+<exclude name="NegativeTesCase"/>
+</run>
+</groups>
+<classes>
+<class name="cleancode.hometask.ten.TestHomeTaskCalculator"/>
+</classes>
+</test>
+</suite>

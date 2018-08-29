@@ -1,0 +1,52 @@
+2018-08-23 18:14:17,006 INFO eight.ListFilesUtil [main] reading list of File into a directoriesC:\Users\Ramalakshmi_Arigela\eclipse-workspace\CleanCode/src/test/resources/ListDirectory
+2018-08-23 18:14:17,553 INFO eight.ListFilesUtil [main] C:\Users\Ramalakshmi_Arigela\eclipse-workspace\CleanCode\src\test\resources\ListDirectory\Test.java
+2018-08-23 18:14:17,553 INFO eight.ListFilesUtil [main] Added the directories
+2018-08-23 18:14:17,553 INFO eight.ListFilesUtil [main] C:\Users\Ramalakshmi_Arigela\eclipse-workspace\CleanCode\src\test\resources\ListDirectory\Test2.java
+2018-08-23 18:14:17,553 INFO eight.ListFilesUtil [main] Added the directories
+2018-08-23 18:14:17,569 INFO eight.ListFilesUtil [main] Directory Name-->Test.javaDirectory Size-->0
+2018-08-23 18:14:17,569 INFO eight.ListFilesUtil [main] Directory Name-->Test2.javaDirectory Size-->0
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 1
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 2
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 3
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 4
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 5
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 6
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 1.1
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 2.2
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 3.3
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 4.4
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 5.5
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 6.6
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] 7.7
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] H
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] E
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] L
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] L
+2018-08-23 19:10:21,890 INFO eight.ListFilesUtil [main] O
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] Array integerArray contains:
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 1
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 2
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 3
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 4
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 5
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 6
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 
+Array doubleArray contains:
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 1.1
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 2.2
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 3.3
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 4.4
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 5.5
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 6.6
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 7.7
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] 
+Array characterArray contains:
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] H
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] E
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] L
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] L
+2018-08-23 19:11:44,225 INFO eight.ListFilesUtil [main] O
+2018-08-23 19:13:07,358 INFO eight.ListFilesUtil [main] Please Select the below flower names Lotus or Hibiscus or Jasmine or Lotus
+2018-08-23 19:13:14,552 INFO eight.ListFilesUtil [main] Please Select the Color of the flower
+2018-08-23 19:13:19,877 INFO eight.ListFilesUtil [main] Do you want other flowers enter Y/N
+2018-08-23 19:13:21,911 INFO eight.ListFilesUtil [main] cost of Boque-->10

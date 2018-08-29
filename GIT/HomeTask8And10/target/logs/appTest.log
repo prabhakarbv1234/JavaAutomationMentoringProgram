@@ -1,0 +1,100 @@
+2018-08-24 13:47:13,631 INFO eight.ListFilesUtil [main] reading list of File into a directoriesC:\Users\Ramalakshmi_Arigela\eclipse-workspace\HomeTask8_9/src/test/resources/ListDirectory
+2018-08-24 13:47:13,631 INFO eight.ListFilesUtil [main] C:\Users\Ramalakshmi_Arigela\eclipse-workspace\HomeTask8_9\src\test\resources\ListDirectory\Test.java
+2018-08-24 13:47:13,631 INFO eight.ListFilesUtil [main] Added the directories
+2018-08-24 13:47:13,631 INFO eight.ListFilesUtil [main] C:\Users\Ramalakshmi_Arigela\eclipse-workspace\HomeTask8_9\src\test\resources\ListDirectory\Test2.java
+2018-08-24 13:47:13,631 INFO eight.ListFilesUtil [main] Added the directories
+2018-08-24 13:47:13,646 INFO eight.ListFilesUtil [main] Directory Name-->Test.javaDirectory Size-->0
+2018-08-24 13:47:13,646 INFO eight.ListFilesUtil [main] Directory Name-->Test2.javaDirectory Size-->0
+2018-08-24 13:51:52,501 INFO ten.ListenerTest [main] The testcase is started :CalculatorTest
+2018-08-24 13:51:52,517 INFO ten.ListenerTest [main] The testcase is started :testisPostive
+2018-08-24 13:51:52,517 INFO ten.ListenerTest [main] The testcase failed is :testisPostive
+2018-08-24 13:51:52,517 INFO ten.ListenerTest [main] The testcase is started :testSquareRoot
+2018-08-24 13:51:52,517 INFO ten.ListenerTest [main] The testcase failed is :testSquareRoot
+2018-08-24 13:51:52,517 INFO ten.ListenerTest [main] The testcase is started :testisNegative
+2018-08-24 13:51:52,517 INFO ten.ListenerTest [main] The testcase failed is :testisNegative
+2018-08-24 13:51:52,517 INFO ten.ListenerTest [main] The testcase is started :findAllBugsTest
+2018-08-24 13:51:52,517 INFO ten.ListenerTest [main] The testcase failed is :findAllBugsTest
+2018-08-24 13:51:52,548 INFO ten.ListenerTest [main] The testcase is finished :CalculatorTest
+2018-08-24 13:52:13,717 INFO ten.BaseTest [TestNG] Before Test method
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] cos 0.8939966636005579
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] is -12 NEgative true
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] is 12 NEgative false
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] is 0 NEgative false
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] is 0 Positive false
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] is 1 Positive true
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] is -1 Positive false
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] 3 Pow 2 9.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] 2 Pow 3 8.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] sqrt of 8 is 2.8284271247461903
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] ctg of 0 is 0.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] ctg of 30 is 1.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] ctg of 45 is 1.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] ctg of 60 is 1.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] ctg of 90 is 1.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] tg of 0 is NaN
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] tg of 30 is 1.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] tg of 45 is 1.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] tg of 60 is 1.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] tg of 90 is 1.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] sin of 0 is 0.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] sin of 30 is -0.9880316240928618
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] sin of 45 is 0.8509035245341184
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] sin of 60 is -0.3048106211022167
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] sin of 90 is 0.8939966636005579
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] cos of 0 is 0.0
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] cos of 30 is -0.9880316240928618
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] cos of 45 is 0.8509035245341184
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] cos of 60 is -0.3048106211022167
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] cos of 90 is 0.8939966636005579
+2018-08-24 13:52:13,733 INFO ten.TestHomeTaskCalculator [TestNG] cos of 180 is -0.8011526357338304
+2018-08-24 13:52:13,733 INFO ten.BaseTest [TestNG] After Test method
+2018-08-24 13:59:43,789 INFO ten.ListenerTest [TestNG] The testcase is started :CalculatorTest
+2018-08-24 13:59:43,789 INFO ten.ListenerTest [TestNG] The testcase is started :testisPostive
+2018-08-24 13:59:43,805 INFO ten.ListenerTest [TestNG] The testcase failed is :testisPostive
+2018-08-24 13:59:43,805 INFO ten.ListenerTest [TestNG] The testcase is started :testSquareRoot
+2018-08-24 13:59:43,805 INFO ten.ListenerTest [TestNG] The testcase failed is :testSquareRoot
+2018-08-24 13:59:43,805 INFO ten.ListenerTest [TestNG] The testcase is started :testisNegative
+2018-08-24 13:59:43,805 INFO ten.ListenerTest [TestNG] The testcase failed is :testisNegative
+2018-08-24 13:59:43,805 INFO ten.ListenerTest [TestNG] The testcase is started :findAllBugsTest
+2018-08-24 13:59:43,805 INFO ten.ListenerTest [TestNG] The testcase failed is :findAllBugsTest
+2018-08-24 13:59:43,821 INFO ten.ListenerTest [TestNG] The testcase is finished :CalculatorTest
+2018-08-24 14:00:32,876 INFO ten.ListenerTest [main] The testcase is started :CalculatorTest
+2018-08-24 14:00:32,891 INFO ten.ListenerTest [main] The testcase is started :testisPostive
+2018-08-24 14:00:32,907 INFO ten.ListenerTest [main] The testcase failed is :testisPostive
+2018-08-24 14:00:32,907 INFO ten.ListenerTest [main] The testcase is started :testSquareRoot
+2018-08-24 14:00:32,907 INFO ten.ListenerTest [main] The testcase failed is :testSquareRoot
+2018-08-24 14:00:32,907 INFO ten.ListenerTest [main] The testcase is started :testisNegative
+2018-08-24 14:00:32,907 INFO ten.ListenerTest [main] The testcase failed is :testisNegative
+2018-08-24 14:00:32,907 INFO ten.ListenerTest [main] The testcase is started :findAllBugsTest
+2018-08-24 14:00:32,907 INFO ten.ListenerTest [main] The testcase failed is :findAllBugsTest
+2018-08-24 14:00:32,923 INFO ten.ListenerTest [main] The testcase is finished :CalculatorTest
+2018-08-24 14:00:48,380 INFO ten.ListenerTest [TestNG] The testcase is started :CalculatorTest
+2018-08-24 14:00:48,380 INFO ten.ListenerTest [TestNG] The testcase is started :testisPostive
+2018-08-24 14:00:48,396 INFO ten.ListenerTest [TestNG] The testcase failed is :testisPostive
+2018-08-24 14:00:48,396 INFO ten.ListenerTest [TestNG] The testcase is started :testSquareRoot
+2018-08-24 14:00:48,396 INFO ten.ListenerTest [TestNG] The testcase failed is :testSquareRoot
+2018-08-24 14:00:48,396 INFO ten.ListenerTest [TestNG] The testcase is started :testisNegative
+2018-08-24 14:00:48,396 INFO ten.ListenerTest [TestNG] The testcase failed is :testisNegative
+2018-08-24 14:00:48,396 INFO ten.ListenerTest [TestNG] The testcase is started :findAllBugsTest
+2018-08-24 14:00:48,396 INFO ten.ListenerTest [TestNG] The testcase failed is :findAllBugsTest
+2018-08-24 14:00:48,412 INFO ten.ListenerTest [TestNG] The testcase is finished :CalculatorTest
+2018-08-24 14:01:01,059 INFO ten.ListenerTest [TestNG] The testcase is started :CalculatorTest
+2018-08-24 14:01:01,075 INFO ten.ListenerTest [TestNG] The testcase is started :testisPostive
+2018-08-24 14:01:01,075 INFO ten.ListenerTest [TestNG] The testcase failed is :testisPostive
+2018-08-24 14:01:01,075 INFO ten.ListenerTest [TestNG] The testcase is started :testSquareRoot
+2018-08-24 14:01:01,075 INFO ten.ListenerTest [TestNG] The testcase failed is :testSquareRoot
+2018-08-24 14:01:01,075 INFO ten.ListenerTest [TestNG] The testcase is started :testisNegative
+2018-08-24 14:01:01,075 INFO ten.ListenerTest [TestNG] The testcase failed is :testisNegative
+2018-08-24 14:01:01,090 INFO ten.ListenerTest [TestNG] The testcase is started :findAllBugsTest
+2018-08-24 14:01:01,090 INFO ten.ListenerTest [TestNG] The testcase failed is :findAllBugsTest
+2018-08-24 14:01:01,106 INFO ten.ListenerTest [TestNG] The testcase is finished :CalculatorTest
+2018-08-24 14:02:38,522 INFO ten.ListenerTest [main] The testcase is started :CalculatorTest
+2018-08-24 14:02:38,538 INFO ten.ListenerTest [pool-2-thread-4] The testcase is started :findAllBugsTest
+2018-08-24 14:02:38,538 INFO ten.ListenerTest [pool-2-thread-2] The testcase is started :testSquareRoot
+2018-08-24 14:02:38,538 INFO ten.ListenerTest [pool-2-thread-1] The testcase is started :testisPostive
+2018-08-24 14:02:38,538 INFO ten.ListenerTest [pool-2-thread-3] The testcase is started :testisNegative
+2018-08-24 14:02:38,538 INFO ten.ListenerTest [pool-2-thread-4] The testcase failed is :findAllBugsTest
+2018-08-24 14:02:38,538 INFO ten.ListenerTest [pool-2-thread-1] The testcase failed is :testisPostive
+2018-08-24 14:02:38,538 INFO ten.ListenerTest [pool-2-thread-2] The testcase failed is :testSquareRoot
+2018-08-24 14:02:38,538 INFO ten.ListenerTest [pool-2-thread-3] The testcase failed is :testisNegative
+2018-08-24 14:02:38,553 INFO ten.ListenerTest [main] The testcase is finished :CalculatorTest

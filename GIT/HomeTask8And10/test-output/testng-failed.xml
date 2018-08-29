@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [CalculatorSuite]" parallel="methods">
+  <listeners>
+    <listener class-name="hometask.ten.ListenerTest"/>
+  </listeners>
+  <test name="CalculatorTest">
+    <groups>
+      <run>
+        <include name="All"/>
+        <exclude name="NegativeTesCase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="hometask.ten.TestHomeTaskCalculator"/>
+    </classes>
+  </test> <!-- CalculatorTest -->
+  <test name="CalculatorTest(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="All"/>
+        <exclude name="NegativeTesCase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="hometask.ten.TestHomeTaskCalculator">
+        <methods>
+          <include name="testisPostive" invocation-numbers="0"/>
+          <include name="testSquareRoot" invocation-numbers="0"/>
+          <include name="findAllBugsTest"/>
+          <include name="testisNegative" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- hometask.ten.TestHomeTaskCalculator -->
+    </classes>
+  </test> <!-- CalculatorTest(failed) -->
+</suite> <!-- Failed suite [CalculatorSuite] -->
