@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Ramalakshmi_Arigela\AppData\Local\Temp\testng-eclipse--1180235833\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.automation.tests.Test1" hash-for-method="testOneCanLoginGithub">testOneCanLoginGithub</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.automation.tests.Test1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneCanLoginGithub">
+                  </a> <!-- testOneCanLoginGithub -->
+                  <span class="method-name">testOneCanLoginGithub</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+60322	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1536047460322	addons.manager	DEBUG	Completed startup sequence
+1536047462061	addons.repository	DEBUG	No addons.json found.
+1536047462070	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1536047462071	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1536047462071	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1536047462144	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 24
+1536047462224	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Ramalakshmi_Arigela\AppData\Local\Temp\anonymous223233604238868625webdriver-profile\extensions\fxdriver@googlecode.com
+1536047462224	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Ramalakshmi_Arigela\AppData\Local\Temp\anonymous223233604238868625webdriver-profile\extensions\webdriver-staging
+1536047462225	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1536047462225	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1536047462225	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1536047462225	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1536047462225	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1536047462225	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1536047462225	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1536047462225	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1536047462225	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1536047462225	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1536047462227	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1536047462227	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1536047462227	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1536047462227	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1536047482100	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/60.0.1/20180516032328/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%206.1.1.0.7601%20(x64)/default/default/update.xml
+1536047482893	addons.productaddons	INFO	Completed downloading document
+1536047483191	addons.productaddons	INFO	downloadXHR File download. status=200
+1536047483194	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Ramalakshmi_Arigela\AppData\Local\Temp\tmpaddon-6d335c
+1536047484082	addons.productaddons	INFO	downloadXHR File download. status=200
+1536047484084	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Ramalakshmi_Arigela\AppData\Local\Temp\tmpaddon-8849a1
+
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;EPINHYDW0020&apos;, ip: &apos;10.71.115.63&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.epam.automation.pages.BasePage.launchBrowser(BasePage.java:30)
+	at com.epam.automation.tests.Test1.testOneCanLoginGithub(Test1.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+60322	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1536047460322	addons.manager	DEBUG	Completed startup sequence
+1536047462061	addons.repository	DEBUG	No addons.json found.
+1536047462070	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1536047462071	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1536047462071	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1536047462144	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 24
+1536047462224	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Ramalakshmi_Arigela\AppData\Local\Temp\anonymous223233604238868625webdriver-profile\extensions\fxdriver@googlecode.com
+1536047462224	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Ramalakshmi_Arigela\AppData\Local\Temp\anonymous223233604238868625webdriver-profile\extensions\webdriver-staging
+1536047462225	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1536047462225	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1536047462225	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1536047462225	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1536047462225	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1536047462225	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1536047462225	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1536047462225	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1536047462225	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1536047462225	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1536047462226	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1536047462227	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1536047462227	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1536047462227	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1536047462227	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1536047482100	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/60.0.1/20180516032328/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%206.1.1.0.7601%20(x64)/default/default/update.xml
+1536047482893	addons.productaddons	INFO	Completed downloading document
+1536047483191	addons.productaddons	INFO	downloadXHR File download. status=200
+1536047483194	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Ramalakshmi_Arigela\AppData\Local\Temp\tmpaddon-6d335c
+1536047484082	addons.productaddons	INFO	downloadXHR File download. status=200
+1536047484084	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\Ramalakshmi_Arigela\AppData\Local\Temp\tmpaddon-8849a1
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	... 32 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ramalakshmi_Arigela\AppData\Local\Temp\testng-eclipse--1180235833\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.automation.tests.Test1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testOneCanLoginGithub')
+data.setCell(0, 2, 'com.epam.automation.tests.Test1')
+data.setCell(0, 3, 63536);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.automation.tests.Test1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testOneCanLoginGithub</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
